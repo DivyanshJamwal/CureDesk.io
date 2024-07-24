@@ -1,0 +1,69 @@
+/* Container for the hospital card */
+.hospital-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  overflow: hidden;
+  position: relative;
+  height: 300px;
+  width: 300px;
+  transform: scale(1);
+  transition: 500ms;
+  cursor: pointer;
+  background-color: #fff; /* Ensure the card background is white */
+}
+
+/* Card hover effect */
+.hospital-card:hover {
+  transform: scale(0.93);
+}
+
+/* Image styling */
+.hospital-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4%;
+}
+
+/* Info section styling */
+.hospital-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Heading inside card */
+.hospital-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Paragraph inside card */
+.hospital-info p {
+  margin: 5px 0;
+  font-size: 0.9em; /* Adjusted font size for better fit */
+}
+
+/* Rating styling */
+.rating {
+  background-color: #348fc1;
+  border-radius: 18px;
+  color: white;
+  padding: 5px 2px;
+  font-size: 1em; /* Adjusted font size for consistency */
+  position: absolute;
+  top: 20px;
+  right: 20px; /* Adjusted position for better fit */
+  width: 60px;
+  text-align: center;
+}
+
+/* Link styling */
+a {
+  color: black;
+  text-decoration: none;
+}

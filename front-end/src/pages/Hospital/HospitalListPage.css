@@ -1,0 +1,8 @@
+/* src/pages/Hospital/HospitalListPage.css */
+.hospital-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
